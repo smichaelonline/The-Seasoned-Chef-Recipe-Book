@@ -18,7 +18,7 @@ struct MainInformation {
     var name: String
     var description: String
     var author: String
-    var category: String
+    var category: Category
     // categories are Breakfast, Lunch, Dinner, Dessert
 }
 
