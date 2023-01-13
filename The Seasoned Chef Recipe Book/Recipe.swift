@@ -10,8 +10,8 @@ import Foundation
 
 struct Recipe {
     var mainInformation: MainInformation
-    var ingredients: [String]
-    var direction: [String]
+    var ingredients: [Ingredient]
+    var direction: [Direction]
 }
 
 struct MainInformation {
@@ -29,4 +29,15 @@ struct MainInformation {
     }
 }
 
+struct Ingredient {
+    var name: String
+    var quantity: Double
+    var unit: String
+    // will refer to common metric: ounce, grams, cups, tablespoons, teaspoons, none
+}
+
+struct Direction {
+    var description: String
+    var isOptional: Bool
+}
 
