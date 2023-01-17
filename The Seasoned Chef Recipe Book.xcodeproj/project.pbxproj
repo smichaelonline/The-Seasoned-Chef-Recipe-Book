@@ -14,6 +14,7 @@
 		9B0DA5482971F2620027007C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5472971F2620027007C /* Recipe.swift */; };
 		9B0DA54E2977134D0027007C /* AllRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA54D2977134D0027007C /* AllRecipes.swift */; };
 		9B0DA56D29774A450027007C /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA56C29774A450027007C /* RecipeData.swift */; };
+		9B0DA56F297755980027007C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA56E297755970027007C /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9B0DA5472971F2620027007C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9B0DA54D2977134D0027007C /* AllRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipes.swift; sourceTree = "<group>"; };
 		9B0DA56C29774A450027007C /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		9B0DA56E297755970027007C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				9B0DA53B2971F1030027007C /* RecipeListView.swift */,
+				9B0DA56E297755970027007C /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0DA5482971F2620027007C /* Recipe.swift in Sources */,
+				9B0DA56F297755980027007C /* RecipeDetailView.swift in Sources */,
 				9B0DA53C2971F1030027007C /* RecipeListView.swift in Sources */,
 				9B0DA56D29774A450027007C /* RecipeData.swift in Sources */,
 				9B0DA53A2971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift in Sources */,
