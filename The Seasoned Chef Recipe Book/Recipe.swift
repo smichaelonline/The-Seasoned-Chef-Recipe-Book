@@ -34,6 +34,22 @@ struct Ingredient {
     var quantity: Double
     var unit: Unit
     
+    // create description so when user creates a recipe - this displays correct unit, name and quantity
+    var description: String {
+        let formattedQuantity = String(format: "%g", quantity)
+        switch unit {
+        case .none:
+            let formattedName = quantity == 1 ? name : "\(name)s"
+            return "\(formattedQuantity) \(unit.rawValue) \(name)"
+        default:
+            if quantity == 1 {
+                return "1 \(unit.singlularName) \(name)"
+            } else {
+                return "\(formattedQuantity) \(unit.rawValue) \(name)"
+            }
+        }
+    }
+    
     enum Unit: String, CaseIterable {
         case oz = "Ounces"
         case g = "Grams"
@@ -41,6 +57,9 @@ struct Ingredient {
         case tbsp = "Tablespoons"
         case tsp = "Teaspoon"
         case none = "No Units"
+        
+        // takes the "s" out of all units when user inputs only a single use of it
+        var singlularName: String { String(rawValue.dropLast())}
     }
 }
 
@@ -48,4 +67,5 @@ struct Direction {
     var description: String
     var isOptional: Bool
 }
+
 
