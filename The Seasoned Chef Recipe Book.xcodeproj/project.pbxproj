@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B0DA53A2971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5392971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift */; };
-		9B0DA53C2971F1030027007C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA53B2971F1030027007C /* ContentView.swift */; };
+		9B0DA53C2971F1030027007C /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA53B2971F1030027007C /* RecipeListView.swift */; };
 		9B0DA53E2971F1050027007C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DA53D2971F1050027007C /* Assets.xcassets */; };
 		9B0DA5412971F1050027007C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DA5402971F1050027007C /* Preview Assets.xcassets */; };
 		9B0DA5482971F2620027007C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5472971F2620027007C /* Recipe.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		9B0DA5362971F1030027007C /* The Seasoned Chef Recipe Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Seasoned Chef Recipe Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0DA5392971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Seasoned_Chef_Recipe_BookApp.swift; sourceTree = "<group>"; };
-		9B0DA53B2971F1030027007C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B0DA53B2971F1030027007C /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		9B0DA53D2971F1050027007C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0DA5402971F1050027007C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B0DA5472971F2620027007C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -55,9 +55,10 @@
 		9B0DA5382971F1030027007C /* The Seasoned Chef Recipe Book */ = {
 			isa = PBXGroup;
 			children = (
+				9B0DA56B29773D170027007C /* Models */,
+				9B0DA56A29773D0B0027007C /* Views */,
+				9B0DA56929773CFE0027007C /* ViewModels */,
 				9B0DA5392971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift */,
-				9B0DA53B2971F1030027007C /* ContentView.swift */,
-				9B0DA5472971F2620027007C /* Recipe.swift */,
 				9B0DA53D2971F1050027007C /* Assets.xcassets */,
 				9B0DA53F2971F1050027007C /* Preview Content */,
 				9B0DA54D2977134D0027007C /* AllRecipes.swift */,
@@ -71,6 +72,29 @@
 				9B0DA5402971F1050027007C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B0DA56929773CFE0027007C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9B0DA56A29773D0B0027007C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B0DA53B2971F1030027007C /* RecipeListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B0DA56B29773D170027007C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B0DA5472971F2620027007C /* Recipe.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0DA5482971F2620027007C /* Recipe.swift in Sources */,
-				9B0DA53C2971F1030027007C /* ContentView.swift in Sources */,
+				9B0DA53C2971F1030027007C /* RecipeListView.swift in Sources */,
 				9B0DA53A2971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift in Sources */,
 				9B0DA54E2977134D0027007C /* AllRecipes.swift in Sources */,
 			);
