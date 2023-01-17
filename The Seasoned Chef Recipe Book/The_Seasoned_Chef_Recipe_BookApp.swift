@@ -11,7 +11,7 @@ import SwiftUI
 struct The_Seasoned_Chef_Recipe_BookApp: App {
     var body: some Scene {
         WindowGroup {
-            RecipeListView()
+            RecipesListView()
         }
     }
 }

@@ -13,6 +13,7 @@
 		9B0DA5412971F1050027007C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DA5402971F1050027007C /* Preview Assets.xcassets */; };
 		9B0DA5482971F2620027007C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5472971F2620027007C /* Recipe.swift */; };
 		9B0DA54E2977134D0027007C /* AllRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA54D2977134D0027007C /* AllRecipes.swift */; };
+		9B0DA56D29774A450027007C /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA56C29774A450027007C /* RecipeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9B0DA5402971F1050027007C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B0DA5472971F2620027007C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9B0DA54D2977134D0027007C /* AllRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipes.swift; sourceTree = "<group>"; };
+		9B0DA56C29774A450027007C /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9B0DA56929773CFE0027007C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9B0DA56C29774A450027007C /* RecipeData.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				9B0DA5482971F2620027007C /* Recipe.swift in Sources */,
 				9B0DA53C2971F1030027007C /* RecipeListView.swift in Sources */,
+				9B0DA56D29774A450027007C /* RecipeData.swift in Sources */,
 				9B0DA53A2971F1030027007C /* The_Seasoned_Chef_Recipe_BookApp.swift in Sources */,
 				9B0DA54E2977134D0027007C /* AllRecipes.swift in Sources */,
 			);

@@ -7,20 +7,33 @@
 
 import SwiftUI
 
-struct RecipeListView: View {
+struct RecipesListView: View {
+    @StateObject var recipeData = RecipeData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach(recipeData.recipes) {
+                recipe in Text(recipe.mainInformation.name)
+            }
         }
-        .padding()
+        .navigationTitle(navigationTitle)
+        }
+    }
+
+extension RecipesListView {
+    var recipes: [Recipe] {
+        recipeData.recipes
+    }
+    
+    var navigationTitle: String {
+        "All Recipes"
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RecipesListView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeListView()
+        NavigationView {
+            RecipesListView()
+        }
     }
 }
