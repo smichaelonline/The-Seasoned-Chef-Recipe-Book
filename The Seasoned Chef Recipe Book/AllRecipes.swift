@@ -10,7 +10,7 @@ extension Recipe {
                     Ingredient(name: "Milk", quantity: 0.5, unit: .cups),
                     Ingredient(name: "Salt", quantity: 2, unit: .tsp)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Put peeled potatoes in water and bring to boil ~15 min (once you can cut them easily", isOptional: false),
                     Direction(description: "In the meantime, Soften the butter by heading in a microwave for 30 seconds", isOptional: false),
                     Direction(description: "Drain the now soft potatoes", isOptional: false),
@@ -29,7 +29,7 @@ extension Recipe {
                     Ingredient(name: "Olive Oil", quantity: 1, unit: .tsp),
                     Ingredient(name: "Salt and Pepper to taste", quantity: 1, unit: .none)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Cook the beets", isOptional: false),
                     Direction(description: "Sous vide the beets - To accomplish this, add beets to food safe plastic storage bags with apples, tsp of course stal and teaspoon of ground black pepper", isOptional: true),
                     Direction(description: "Then vacuum seal the bag of beets and submerge into 185F water until tender; if no vacuum seal, weigh them down so they submerge", isOptional: true),
@@ -60,7 +60,7 @@ extension Recipe {
                     Ingredient(name: "Spoonful of Honey", quantity: 1, unit: .none),
                     Ingredient(name: "Chicken Stock", quantity: 30, unit: .oz),
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "In a small bowl, combine the honey, tomato paste and wine, and mix into paste", isOptional: false),
                     Direction(description: "In an oval dutch oven, melt the fat over a medium to high heat.", isOptional: false),
                     Direction(description: "Sear the brisket on both side then remove the heat", isOptional: false),
@@ -80,7 +80,7 @@ extension Recipe {
                     Ingredient(name: "Vanilla Extract", quantity: 1, unit: .tsp),
                     Ingredient(name: "Milk", quantity: 2, unit: .tbsp)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Preheat oven to 350 degrees F", isOptional: false),
                     Direction(description: "Crush graham cracker in large mixing bowl with clean hands, not in food processor! (Make sure pieces are chunky)", isOptional: false),
                     Direction(description: "Smei-melt the chocolate chips, keep some in tact", isOptional: false),
@@ -103,7 +103,7 @@ extension Recipe {
                     Ingredient(name: "Fresh Lemon Juice", quantity: 2, unit: .tbsp),
                     Ingredient(name: "Baby Spinach", quantity: 3, unit: .oz)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Heat 1 tbsp olive oil in large non stick skillet on medium heat", isOptional: false),
                     Direction(description: "Add onions until tender, about 6 minutes then transfer to a small bowl", isOptional: false),
                     Direction(description: "In a different bowl, whisk eggs, 1 tbs water, and 0.5 tsp salt", isOptional: false),
@@ -140,7 +140,7 @@ extension Recipe {
                     Ingredient(name: "Sour Cream", quantity: 1, unit: .none),
                     Ingredient(name: "Cilantro", quantity: 1, unit: .none)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "In a large pot over medium heat, heat olive oil then add onions, bell peppers and carrots", isOptional: false),
                     Direction(description: "Saute until soft - about 5 min", isOptional: false),
                     Direction(description: "Add garlic and jalapeno and cool until fragrant - about 1 min", isOptional: false),
@@ -167,7 +167,7 @@ extension Recipe {
                     Ingredient(name: "Unsalted butter, cut into pieces", quantity: 4, unit: .tbsp),
                     Ingredient(name: "Finely Chopped Fresh Parsley", quantity: 0.25, unit: .cups)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Bring large pot of salt water to a boil", isOptional: false),
                     Direction(description: "Add the linguini and cook as label directs", isOptional: false),
                     Direction(description: "Reserve 1 cup cooking water, then drain", isOptional: false),
@@ -196,7 +196,7 @@ extension Recipe {
                     Ingredient(name: "Milk Chocolate Chips", quantity: 3, unit: .cups),
                     Ingredient(name: "Shortening", quantity: 1.25, unit: .tsp)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Line 2 baking sheets with waxed paper", isOptional: false),
                     Direction(description: "Grease paper and set aside", isOptional: false),
                     Direction(description: "In a large heavy saucepan, combine caramel and water", isOptional: false),
@@ -227,7 +227,7 @@ extension Recipe {
                     Ingredient(name: "Salt", quantity: 1, unit: .tsp),
                     Ingredient(name: "Shredded Sharp Cheddar", quantity: 1, unit: .cups)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Heat oven to 375. Lightly coat 13 x 9 baking dish with vegetable cooking spray", isOptional: false),
                     Direction(description: "Start to cook pasta", isOptional: false),
                     Direction(description: "Meanwhile, melt 1 tablespoon butter in a saucepan over medium heat. Add onion, and cook until softened, about 3 min.", isOptional: false),
@@ -257,7 +257,7 @@ extension Recipe {
                     Ingredient(name: "Box Vegetable Stock", quantity: 1, unit: .none),
                     Ingredient(name: "Can Diced Tomatoes", quantity: 1, unit: .none)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Cook onion and garlic on high heat until onion is translucent, about 5 min", isOptional: false),
                     Direction(description: "Add celery, carrots, parsley, and cook for 5-7min", isOptional: false),
                     Direction(description: "Add can diced tomatoes, vegetable stock, and potato. Bring to boil and let simmer for 45min", isOptional: false),
@@ -277,7 +277,7 @@ extension Recipe {
                     Ingredient(name: "White Wine", quantity: 2, unit: .tbsp),
                     Ingredient(name: "Butter", quantity: 4, unit: .tbsp)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Chop garlic and onions", isOptional: false),
                     Direction(description: "Saute garlic and onions in olive oil", isOptional: false),
                     Direction(description: "Add clams and 1/2 juice in cans", isOptional: false),
@@ -295,7 +295,7 @@ extension Recipe {
                     Ingredient(name: "Banana", quantity: 1, unit: .none),
                     Ingredient(name: "Peanut Butter", quantity: 2, unit: .tbsp),
                 ],
-               direction:  [
+               directions:  [
                     Direction(description: "Slice the banana", isOptional: false),
                     Direction(description: "Combine all ingredients in a bowl", isOptional: false),
                     Direction(description: "Add chocolate chips", isOptional: true),
@@ -315,7 +315,7 @@ extension Recipe {
                     Ingredient(name: "Salt", quantity: 1, unit: .tsp),
                     Ingredient(name: "Chocolate Chips", quantity: 1, unit: .cups)
                ],
-               direction:  [
+               directions:  [
                     Direction(description: "Preheat oven to 325", isOptional: false),
                     Direction(description: "Mash banana with fork", isOptional: false),
                     Direction(description: "Stir in sugar, egg, flour, melted butter, soda, and salt", isOptional: false),
